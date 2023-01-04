@@ -1,0 +1,11 @@
+RewriteEngine on    
+
+RewriteRule ^index/$ index.php [S=1]
+
+RewriteRule ^services$ services.php [S=1]
+
+RewriteRule ^about-us$ about-us.php [S=1]
+
+RewriteRule ^contact-us$ contact-us.php [S=1]
+
+RewriteRule ^technologies$ technologies.php [S=1]  
